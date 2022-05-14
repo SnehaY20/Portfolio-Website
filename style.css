@@ -1,0 +1,52 @@
+h1 { color: 	darkviolet; }
+h2 { color: darkorchid; }
+h3 { color: indigo; }
+h5 { color: indigo; }
+p { color: darkmagenta; }
+/* spacing */
+table {
+  table-layout: fixed;
+  width: 50%;
+  border-collapse: collapse;
+}
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-color: purple;
+	border-width: 5px;
+	width: 5%;
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+ td {
+  padding: 10px;
+}
+ul {
+  padding-left: 0rem;
+  list-style-type: none;
+}
+ul li {
+  padding-left: 2rem;
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+	
+
+	
